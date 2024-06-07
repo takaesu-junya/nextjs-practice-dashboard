@@ -21,7 +21,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Navbar />
         <div className="flex">
-          <div className="h-[100vh] w-[330px] hidden md:block">
+          <div className="min-h-screen w-[330px] hidden md:block">
             <Sidebar />
           </div>
           <div className="p-5 w-full md:max-w-[1140px]">{children}</div>
